@@ -1,0 +1,70 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #1f2937;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #2563eb;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 8px;
+}
+
+/* List */
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
