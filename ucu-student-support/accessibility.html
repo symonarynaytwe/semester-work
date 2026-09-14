@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Accessibility decisions used in the UCU Student Support Hub prototype.">
+
+    <title>Accessibility | UCU Student Support Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <p class="site-label">Uganda Christian University</p>
+            <h1>UCU Student Support Hub</h1>
+            <p class="tagline">
+                Designing for different users and abilities.
+            </p>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="accessibility.html" class="active">Accessibility</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+
+        <section class="page-heading">
+            <div class="container">
+                <p class="welcome">ACCESSIBILITY</p>
+
+                <h2>Accessibility Decisions</h2>
+
+                <p>
+                    Accessibility was considered during the design and
+                    development of this prototype.
+                </p>
+            </div>
+        </section>
+
+        <section class="container section">
+
+            <article class="accessibility-item">
+                <h2>1. Semantic HTML</h2>
+
+                <p>
+                    I used semantic elements such as
+                    <code>&lt;header&gt;</code>,
+                    <code>&lt;nav&gt;</code>,
+                    <code>&lt;main&gt;</code>,
+                    <code>&lt;section&gt;</code>,
+                    <code>&lt;article&gt;</code> and
+                    <code>&lt;footer&gt;</code>.
+                </p>
+
+                <p>
+                    These elements give the page a meaningful structure and
+                    make the content easier to understand.
+                </p>
+            </article>
+
+            <article class="accessibility-item">
+                <h2>2. Clear Navigation</h2>
+
+                <p>
+                    The main navigation is kept consistent across all pages.
+                    This helps users know where they are and how to move
+                    between pages.
+                </p>
+            </article>
+
+            <article class="accessibility-item">
+                <h2>3. Skip Link</h2>
+
+                <p>
+                    A "Skip to main content" link was added so keyboard users
+                    can move directly to the main content without repeatedly
+                    going through the navigation.
+                </p>
+            </article>
+
+            <article class="accessibility-item">
+                <h2>4. Clear Form Labels</h2>
+
+                <p>
+                    Every important form field has a label. This makes it
+                    clear what information the user should enter and supports
+                    users who use assistive technologies.
+                </p>
+            </article>
+
+            <article class="accessibility-item">
+                <h2>5. Readable Colour and Text</h2>
+
+                <p>
+                    The website uses clear text and background combinations.
+                    Text is also separated into headings and paragraphs to
+                    make the content easier to scan.
+                </p>
+            </article>
+
+            <article class="accessibility-item">
+                <h2>6. Keyboard-Friendly Controls</h2>
+
+                <p>
+                    Normal HTML links, buttons and form controls are used so
+                    users can interact with the website using a keyboard.
+                </p>
+            </article>
+
+        </section>
+
+        <section class="highlight">
+            <div class="container">
+                <h2>Our goal</h2>
+
+                <p>
+                    The goal is to make the website simple to understand,
+                    simple to navigate and usable by as many students as
+                    possible.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <h2>UCU Student Support Hub</h2>
+            <p>Helping students find the right support.</p>
+            <p>&copy; 2026 UCU Student Support Hub</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Contact form for the UCU Student Support Hub.">
+
+    <title>Contact | UCU Student Support Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <p class="site-label">Uganda Christian University</p>
+            <h1>UCU Student Support Hub</h1>
+            <p class="tagline">
+                Tell us how we can help.
+            </p>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+
+        <section class="page-heading">
+            <div class="container">
+                <p class="welcome">CONTACT</p>
+
+                <h2>Request Support</h2>
+
+                <p>
+                    Use this form to describe the type of support you are
+                    looking for.
+                </p>
+            </div>
+        </section>
+
+        <section class="container form-section">
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Student Information</legend>
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Student Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@student.com"
+                            required
+                        >
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Support Request</legend>
+
+                    <div class="form-group">
+                        <label for="support">
+                            What type of support do you need?
+                        </label>
+
+                        <select id="support" name="support" required>
+                            <option value="">-- Select support type --</option>
+                            <option value="it">IT Support</option>
+                            <option value="academic">Academic Support</option>
+                            <option value="library">Library Support</option>
+                            <option value="wellness">Student Wellness</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">
+                            Describe your problem
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            placeholder="Briefly explain how we can help..."
+                            required
+                        ></textarea>
+                    </div>
+
+                </fieldset>
+
+                <button type="submit" class="button">
+                    Send Support Request
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="highlight">
+            <div class="container">
+                <h2>Before you submit</h2>
+
+                <p>
+                    Please avoid entering passwords, access tokens, financial
+                    information or other private information in this prototype
+                    form.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <h2>UCU Student Support Hub</h2>
+            <p>Helping students find the right support.</p>
+            <p>&copy; 2026 UCU Student Support Hub</p>
+        </div>
+    </footer>
+
+</body>
+</html>
